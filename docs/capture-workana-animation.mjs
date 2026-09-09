@@ -13,7 +13,7 @@ await page.emulateMedia({ reducedMotion: 'no-preference' });
 await page.waitForTimeout(500);
 
 const frameCount = 48;
-const frameDelay = 110;
+const frameDelay = 143;
 const encoder = new GIFEncoder(900, 560, 'octree', true, frameCount);
 encoder.setRepeat(0);
 encoder.setDelay(frameDelay);
