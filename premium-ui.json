@@ -1,0 +1,10 @@
+{
+  "profile": "product-admin",
+  "sourceRoots": ["src"],
+  "locale": "en-US",
+  "canonicalMap": "DESIGN.md",
+  "requiredCapabilities": ["Select/Listbox", "Form", "Scrollbar"],
+  "ownership": { "Select/Listbox": "native" },
+  "requiredCommands": ["e2e", "build"],
+  "commands": { "e2e": "npm test", "build": "npm run build" }
+}

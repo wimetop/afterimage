@@ -1,0 +1,32 @@
+{
+  "name": "afterimage-studio",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview --host 0.0.0.0",
+    "test": "playwright test",
+    "format": "prettier --write src tests *.json *.html *.md",
+    "format:check": "prettier --check src tests *.json *.html *.md"
+  },
+  "dependencies": {
+    "@fontsource/archivo": "^5.2.0",
+    "@fontsource/dm-mono": "^5.2.0",
+    "lucide-react": "^0.468.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "^4.10.2",
+    "@playwright/test": "^1.51.1",
+    "@types/react": "^19.1.0",
+    "@types/react-dom": "^19.1.0",
+    "@vitejs/plugin-react": "^4.5.0",
+    "prettier": "^3.5.0",
+    "sharp": "^0.35.4",
+    "typescript": "~5.8.3",
+    "vite": "^6.3.5"
+  }
+}
