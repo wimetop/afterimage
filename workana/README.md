@@ -2,7 +2,7 @@
 
 ## Recommended upload order
 
-1. `afterimage-cover.gif` — animated cover image
+1. `afterimage-cover.gif` — animated cover image captured from the live browser while the layered image sculpture is moving
 2. `afterimage-full-page.png` — complete desktop page from top to bottom
 3. `afterimage-gallery.png` — archive/contact-sheet section
 4. `afterimage-timeline.png` — editing laboratory and timeline
